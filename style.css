@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Open+Sans:ital,wght@0,300;0,400;1,500&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:ital,wght@0,100;0,400;1,700&family=Space+Mono&family=Work+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Open+Sans:wght@300;400;500&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:ital,wght@0,100;0,400;1,700&family=Space+Mono&family=Work+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Open+Sans:wght@300;400;500&family=Poppins:wght@100;200;500&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:ital,wght@0,100;0,400;1,700&family=Space+Mono&family=Work+Sans:wght@800&display=swap');
+
+body {
+  background-color: rgb(235, 237, 237);
+}
+
+h1 {
+  font-family:poppins;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(0, 204, 188)
+}
+
+h2 {
+  font-family:roboto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-family:roboto;
+  font-size: 16px;
+  font-weight: light;
+}
+
+div {
+  background-color: white;
+  width: auto;
+  border: 1px;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+  padding: 50px;
+  width: 700px;
+  margin: 20px auto;
+}
+img {
+  size: 50px, 50px;
+  border-radius: 50%;
+}
+
+#banner {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#banner a:hover {
+  color:white ;
+  background-color:rgb(249, 183, 151);
+  font-weight:bold
+}
+
+#banner h1 {
+  font-family: poppins;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(35,35,36)
+}
+
+#banner p {
+  margin-bottom: 30px;
+}
+.white-box h2 {
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: 600;
+  color:#5BFFD3
+}
+
+.text-center{
+  text-align: center;
+}
+
+#list-inline {
+  color:rgb(249, 183, 151) ;
+  display: inline;
+  list-style: none;
+  padding-left: 0;
+}
+
+#list-inline li {
+  display: inline-block;
+  padding: 0 16px;
+}
+
+a {
+  color: rgb(249, 183, 151);
+  font-weight: 200;
+  text-decoration: none;
+  background-color:white;
+  border-radius: 5px;
+  padding: 8px 5px;
+  font-size: 16px;
+
+}
+
+a:hover {
+  color:white ;
+  text-decoration: none;
+  background-color: rgb(235, 237, 237) ;
+  font-weight:bold
+}
+
+#avatar {
+  padding: 16px 16px;
+}
